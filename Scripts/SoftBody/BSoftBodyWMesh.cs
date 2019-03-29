@@ -62,7 +62,7 @@ namespace BulletUnity
             m_BSoftBody.CollisionShape.Margin = 0.12f;
             m_BSoftBody.Cfg.Collisions = CollisionFlags.VertexFaceSoftSoft | CollisionFlags.SdfRigidSoft;
             m_BSoftBody.Cfg.Damping = 0.001f;
-            m_BSoftBody.Cfg.Pressure = 1000;
+//            m_BSoftBody.Cfg.Pressure = 1000;
             //m_BSoftBody.Cfg.PoseMatching = 10;
 
             return true;
